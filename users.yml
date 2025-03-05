@@ -1,0 +1,11 @@
+users_users:
+  - username: testuser
+    full_name: Test User
+    groups:
+      - sudo
+    ssh_keys: |
+      ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFBXxonWeQySogM1D61oHzBM1JR7KZekotRmOGdpo5XS test@localhost
+
+  - username: testsysuser
+    full_name: Test System User
+    system: true
